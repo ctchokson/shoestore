@@ -1,20 +1,17 @@
-# README Template
+# The Shoe Store
+This project consist of five screens.
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+1. Login screen: Email and password fields and labels plus create and login buttons
+2. Welcome onboarding screen
+3. Instructions onboarding screen
+4. Shoe Listing screen
+5. Shoe Detail screen for adding a new shoe
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+Clone the project with command: git clone git@github.com:ctchokson/shoestore.git
 
-### Dependencies
-
-```
-Examples here
-```
+Open the project in the latest stable version of Android Studio.
 
 ### Installation
 
@@ -28,15 +25,12 @@ Give an example here
 
 ## Testing
 
-Explain the steps needed to run any automated tests
+No automated tests available
 
 ### Break Down Tests
 
-Explain what each test does and why
+No unit test
 
-```
-Examples here
-```
 ## Project Instructions
 
 This section should contain all the student deliverables for this project.
