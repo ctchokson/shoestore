@@ -1,6 +1,6 @@
 # The Shoe Store
 
-This project will consist of five screens. You don't have to create a shoe store, you can use any other item as long as you create the following screens. You will be creating:
+This project consist of five screens.
 
 1. Login screen: Email and password fields and labels plus create and login buttons
 2. Welcome onboarding screen
@@ -10,13 +10,11 @@ This project will consist of five screens. You don't have to create a shoe store
 
 ## Getting Started
 
-Open the starter project in the latest stable version of Android Studio.
-
-Open the starter project in Android Studio
+Open the project in the latest stable version of Android Studio.
 
 ##Steps
 
-1. Open the starter project in Android Studio
+1. Open the project in Android Studio
 
 2. Add the navigation libraries to the app build.gradle file
 
