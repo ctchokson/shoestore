@@ -11,36 +11,18 @@ This project consist of five screens.
 
 Clone the project with command: git clone git@github.com:ctchokson/shoestore.git
 
-Open the project in the latest stable version of Android Studio.
-
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
+Open the project in the latest stable version of Android Studio.
 
 ## Testing
 
-No automated tests available
+No automated tests available.
 
 ### Break Down Tests
 
-No unit test
+No unit test.
 
 ## Project Instructions
 
 This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
