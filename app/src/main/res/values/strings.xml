@@ -6,7 +6,7 @@
     <string name="password_label">Password</string>
     <string name="login_button_text">Log In</string>
     <string name="new_account_button_text">Create new account</string>
-    <string name="welcome_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="welcome_text">Welcome to the Shoe Store. This app allows you to browse previusly saved shoe and also add new ones.\n\nClick on the Instruction button to go to the Instruction Page.</string>
     <string name="shoe_list_text">Shoe List</string>
     <string name="log_out_text">LOG OUT</string>
     <string name="shoe_name_text">Shoe Name</string>
@@ -16,5 +16,7 @@
     <string name="description_text">Description</string>
     <string name="cancel_button_text">CANCEL</string>
     <string name="save_button_text">SAVE</string>
+    <string name="instruction_text">This page gives you instruction on how to use this application\n\nClick on the Shoe list button to get to the Shoe list page.\n\nTo add a new shoe, click on the add(+) button which brings you the new shoe page where you can fill out the form and click Save</string>
+
 
 </resources>

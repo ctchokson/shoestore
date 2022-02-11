@@ -21,11 +21,13 @@
         android:id="@+id/instruction_text"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/horizontal_margin"
         android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginRight="@dimen/horizontal_margin"
         android:layout_marginBottom="@dimen/margin_16"
         android:layout_weight="75"
-        android:text="@string/welcome_text"
-        android:textSize="10sp" />
+        android:text="@string/instruction_text"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/shoe_list_button"

@@ -35,11 +35,9 @@ class ShoeListFragment : Fragment() {
 
         model.shoeList.observe(viewLifecycleOwner){
             item -> val layout:LinearLayout = binding.mainLayout
-
             var newTextView: TextView
             for(shoe in item)
             {
-
                 newTextView = TextView(activity)
                 newTextView.layoutParams = layout.layoutParams
                 newTextView.gravity = Gravity.LEFT

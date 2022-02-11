@@ -10,12 +10,27 @@ class ShoeListViewModel: ViewModel() {
     val shoeList: LiveData<MutableList<Shoe>>
         get() = _shoeList
 
+    private val _hasLoggedIn = MutableLiveData<Boolean>()
+    val hasLoggedIn: LiveData<Boolean>
+        get() = _hasLoggedIn
+
     init {
             _shoeList.value = mutableListOf()
+            _hasLoggedIn.value = false
     }
 
     fun addNewShoe(shoe:Shoe){
       _shoeList.value?.add(shoe)
+    }
+
+    fun setLogIn()
+    {
+        _hasLoggedIn.value = true
+    }
+
+    fun resetLogIn()
+    {
+        _hasLoggedIn.value = false
     }
 
     fun resetList(){
