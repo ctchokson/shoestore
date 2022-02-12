@@ -3,6 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <import type="com.udacity.shoestore.models.Converter"/>
+        <variable
+            name="newShoe"
+            type="com.udacity.shoestore.models.Shoe" />
+    </data>
+
 <androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/shoe_size_textview"
     android:layout_width="match_parent"
@@ -27,6 +34,7 @@
         android:layout_marginTop="@dimen/margin_60"
         android:layout_marginEnd="@dimen/margin_16"
         android:ems="10"
+        android:text="@={newShoe.name}"
         android:hint="@string/shoe_name_text"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -52,6 +60,7 @@
         android:layout_marginTop="@dimen/margin_16"
         android:layout_marginEnd="@dimen/margin_16"
         android:ems="10"
+        android:text="@={Converter.doubleToString(newShoe.size)}"
         android:hint="@string/shoe_size_text"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -77,6 +86,7 @@
         android:layout_marginTop="@dimen/margin_16"
         android:layout_marginEnd="@dimen/margin_16"
         android:ems="10"
+        android:text="@={newShoe.company}"
         android:hint="@string/company_text"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -102,6 +112,7 @@
         android:layout_marginTop="@dimen/margin_16"
         android:layout_marginEnd="@dimen/margin_16"
         android:ems="10"
+        android:text="@={newShoe.description}"
         android:hint="@string/description_text"
         android:inputType="textPersonName"
         android:minHeight="48dp"
